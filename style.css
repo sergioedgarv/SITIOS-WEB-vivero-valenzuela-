@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #d07c9b;
+    margin: 5px;
+  }
+  
+  .sub {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .parrafo {
+    color: #eef1ef;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    background-color: #d07c9b;
+    padding: 10px;
+  }
+  
+  .pie {
+    background-color: #d07c9b;
+    padding: 20px;
+    margin: 20px auto;
+    color: black;
+  }
+  
+  /* NAVBAR aesthetic */
+  .navbar {
+    background-color: #ffffffcc;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 20px;
+  }
+  
+  .nav-link {
+    color: #555;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #d07c9b;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #d07c9b;
+  }
+  
+  .btn-custom {
+    background-color: #d07c9b;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 18px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ba6a87;
+  }
+  
+  .cabeza
+  {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
